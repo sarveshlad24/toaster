@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <h1 style="font-size: 26px; font-weight: bold;">welcome</h1>
+    <ion-list class="lists">
+      <ion-item>
+        <ion-label>Name:-</ion-label> 
+        <ion-input type="text" name="ngModel" [(ngModel)]="name" placeholder="Enter your Name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Email Id:-</ion-label> <br>
+        <ion-input type="text" name="ngModel" [(ngModel)]="email" placeholder="Enter your Email Id"></ion-input>
+      </ion-item>
+      <ion-button style="margin: 15px 0;"  color="success" (click)="save()">Save</ion-button>
+    </ion-list>
+  </div>
+
+
+</ion-content>
