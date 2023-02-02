@@ -1,0 +1,7 @@
+{
+  "name": "popup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
